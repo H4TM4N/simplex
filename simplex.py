@@ -53,7 +53,7 @@ def minusline(l: S_z, pl: S_line, pc: int):
 def round_line(data: list, n: int) -> list:
     return list(map(lambda x: str(round(x, n)), data))
 
-# pivot要素を強調表示
+# pivot要素を反転表示
 def accent(data: list, pc: int) -> list:
     if pc == -1:
         return "\t".join(data)
